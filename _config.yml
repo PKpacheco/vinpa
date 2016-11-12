@@ -1,9 +1,9 @@
 # Site settings
-title: Pyladies Mendoza
-email: "mendoza@pyladies.com"
-description: PyLadies is an international group mentoring focused on helping more and more women to become active participants and leaders in the open-source Python community.
+title: Vinpa
+email: "vinpa.web@gmail.com"
+description: Vinpa Web
 url: "http://pkpacheco.github.io"
-baseurl: "/pyladies-mendoza"
+baseurl: "/vinpa"
 
 # twitter_username: pyladies_mendoza
 github_username: PKpacheco
@@ -11,7 +11,7 @@ github_username: PKpacheco
 # Build settings
 markdown: kramdown
 
-highlighter: blue
+highlighter: green
 
 # Pagination
 # paginate: 15
@@ -21,12 +21,7 @@ collections:
   home:
     output: true
     permalink: /home/:path/
-  home-es:
+  contact:
     output: true
-    permalink: /home-es/:path/
-  ladies:
-    output: true
-    permalink: /ladies/:path/
-  events:
-    output: true
-    permalink: /events/:path/
+    permalink: /contact/:path/
+ 
